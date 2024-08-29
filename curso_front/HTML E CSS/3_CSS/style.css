@@ -1,0 +1,16 @@
+#box-model {
+    margin: 30px;
+    padding: 25px 25px;
+    border: 3px solid #125762;
+    border-radius: 10px;
+    width: 100px;
+    width: 400px;
+    outline: 3px solid rebeccapurple;
+}
+
+h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002fff;
+    text-align: center;
+    text-align: justify;
+}

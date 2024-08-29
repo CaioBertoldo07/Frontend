@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda seu pet</title>
+    <link rel="stylesheet" href="pt.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre aqui seu pet para Venda</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Venda aqui seu pet rapidamente</h1>
+                <p>
+                    Descreva as informações do seu pet para a venda
+                </p>
+                <form>
+                    <!-- Input para o nome do pet -->
+                    <div class="box-input">
+                        <label for="name">
+                            Nome do pet <span class="required-field">*</span>
+                        </label>
+                        <input type="text" name="name" id="name" class="block" 
+                        placeholder="Coloque aqui o nome do seu pet">
+                    </div>
+                    <!-- Input para a espécie do pet -->
+                    <div class="box-input">
+                        <label for="species">
+                            Espécie do pet (cachorro, gato, pássaro, etc) <span class="required-field">*</span>
+                        </label>
+                        <input type="text" name="species" id="species" class="block" 
+                        placeholder="Coloque aqui a espécie do seu pet">
+                    </div>
+                    <!-- Input para a raça do pet -->
+                    <div class="box-input">
+                        <label for="race">
+                            Raça do pet <span class="required-field">*</span>
+                        </label>
+                        <input type="text" name="race" id="race" class="block" 
+                        placeholder="Coloque aqui a raça do seu pet">
+                    </div>
+                    <!-- Input para a data de nascimento do pet -->
+                    <div class="box-input">
+                        <label for="birth">
+                            Data de nascimento do pet <span class="required-field">*</span>
+                        </label>
+                        <input type="date" name="birth" id="birth" class="block">
+                    </div>
+                    <!-- Input para o sexo do pet -->
+                    <div class="box-input">
+                        <p>Sexo do pet <span class="required-field">*</span></p>
+                        <input type="radio" name="male" id="male">
+                        <label for="male">Macho</label>
+                        <input type="radio" name="famale" id="famale">
+                        <label for="famale">Fêmea</label>
+                    </div>
+                    <!-- Input para fotos do pet -->
+                    <div class="box-input">
+                        <label for="photos">
+                            Fotos do pet <span class="required-field">*</span>
+                        </label>
+                        <input type="file" id="images" name="images" multiple accept="image/png, image/jpg" required>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

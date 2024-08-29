@@ -1,0 +1,161 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #FEF7EE;
+}
+
+body {
+    background-color: #111315;
+}
+
+.header {
+    height:350px;
+    padding: 12px;
+    margin: 0 auto;
+    background-image: url("../img/bg-cafe.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    height: 800px;
+    background-color: #1B1D1F;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: relative;
+    top: -180px;
+}
+
+#head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#head h2, p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    margin-top: 40px;
+    /* background-image: url("../img/vector.svg");
+    background-size: cover; */
+}
+
+#head p {
+    color: #6F757C;
+    margin-top: -20px;
+}
+#head span {
+    display: flex;
+}
+
+.all-products {
+    background-color: #6F757C;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+/* menu */
+
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1B1D1F;
+}
+
+.menu-item {
+    background-color: #1B1D1F;
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    /* height: 300px; */
+    /* overflow: hidden; */
+    text-align: left;
+}
+
+.menu-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.menu-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-weight: normal;
+    width: 50%;
+    /* background-color: rebeccapurple; */
+}
+
+.menu-item .price {
+    background-color: #BEE3CC;
+    color: #1B1D1F;
+    padding: 2px 2px;
+    width: 50px;
+    height: 20px;
+    left: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    margin-left: 250px;
+    margin-top: -35px;
+    /* margin-bottom: 50px; */
+    font-size: small;
+}
+
+.menu-item .rating {
+    font-size: 0.9em;
+    color: #6F757C;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -25px;
+}
+
+.menu-item .rating img {
+    font-size: 15px;
+}
+
+.tag-popular {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    background-color: #F6C768;
+    color: #1B1D1F;
+    padding: 2px;
+    border-radius: 20px;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sold-out {
+    color: #ED735D;
+    font-weight: bold;
+    font-size: 1em;
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-right: 30px;
+    background-color: #1B1D1F;
+    padding: 5px;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+    margin-top: 40px;
+}
